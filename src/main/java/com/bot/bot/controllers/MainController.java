@@ -8,7 +8,7 @@ import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = "https://github.com/")
+@CrossOrigin(origins = "*")
 @RequestMapping("/bot")
 public class MainController {
     private final MainServise mainServise;
